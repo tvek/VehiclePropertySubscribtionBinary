@@ -1,0 +1,12 @@
+cc_binary {
+    name: "thomaslineabc",
+    srcs: ["main.cpp"],
+    vendor: true,
+    shared_libs: [
+        "libz",
+        "libbase",
+        "libutils",
+        "libhidlbase",
+        "android.hardware.automotive.vehicle@2.0",
+    ]
+}
